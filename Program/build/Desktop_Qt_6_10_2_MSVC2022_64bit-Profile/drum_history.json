@@ -1,0 +1,262 @@
+[
+    {
+        "correction": -360,
+        "detectedFreq": 500,
+        "drumType": 2,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 140,
+        "timestamp": "2026-05-05T04:58:04",
+        "wasCorrect": false
+    },
+    {
+        "correction": 111.9760513305664,
+        "detectedFreq": 88.0239486694336,
+        "drumType": 0,
+        "drummerName": "Lars Ulrich",
+        "plasticType": 0,
+        "targetFreq": 200,
+        "timestamp": "2026-05-05T04:59:40",
+        "wasCorrect": false
+    },
+    {
+        "correction": -445,
+        "detectedFreq": 500,
+        "drumType": 1,
+        "drummerName": "Mario Duplantier",
+        "plasticType": 0,
+        "targetFreq": 55,
+        "timestamp": "2026-05-05T05:00:04",
+        "wasCorrect": false
+    },
+    {
+        "correction": -300,
+        "detectedFreq": 500,
+        "drumType": 0,
+        "drummerName": "Mario Duplantier",
+        "plasticType": 0,
+        "targetFreq": 200,
+        "timestamp": "2026-05-05T05:00:49",
+        "wasCorrect": false
+    },
+    {
+        "correction": -6.799999237060547,
+        "detectedFreq": 58.79999923706055,
+        "drumType": 1,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 52,
+        "timestamp": "2026-05-05T14:51:16",
+        "wasCorrect": false
+    },
+    {
+        "correction": -448,
+        "detectedFreq": 500,
+        "drumType": 1,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 52,
+        "timestamp": "2026-05-05T14:51:26",
+        "wasCorrect": false
+    },
+    {
+        "correction": 163.66915893554688,
+        "detectedFreq": 41.330833435058594,
+        "drumType": 0,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 205,
+        "timestamp": "2026-05-05T14:51:39",
+        "wasCorrect": false
+    },
+    {
+        "correction": 83.84615325927734,
+        "detectedFreq": 121.15384674072266,
+        "drumType": 0,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 205,
+        "timestamp": "2026-05-05T14:52:15",
+        "wasCorrect": false
+    },
+    {
+        "correction": -94.51162719726562,
+        "detectedFreq": 146.51162719726562,
+        "drumType": 1,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 52,
+        "timestamp": "2026-05-05T14:52:23",
+        "wasCorrect": false
+    },
+    {
+        "correction": -295,
+        "detectedFreq": 500,
+        "drumType": 0,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 205,
+        "timestamp": "2026-05-05T14:52:31",
+        "wasCorrect": false
+    },
+    {
+        "correction": -295,
+        "detectedFreq": 500,
+        "drumType": 0,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 205,
+        "timestamp": "2026-05-05T14:52:59",
+        "wasCorrect": false
+    },
+    {
+        "correction": -300,
+        "detectedFreq": 500,
+        "drumType": 0,
+        "drummerName": "Lars Ulrich",
+        "plasticType": 0,
+        "targetFreq": 200,
+        "timestamp": "2026-05-05T14:55:08",
+        "wasCorrect": false
+    },
+    {
+        "correction": 101.63516235351562,
+        "detectedFreq": 83.36483764648438,
+        "drumType": 0,
+        "drummerName": "Danny Carey",
+        "plasticType": 0,
+        "targetFreq": 185,
+        "timestamp": "2026-05-05T14:55:30",
+        "wasCorrect": false
+    },
+    {
+        "correction": -315,
+        "detectedFreq": 500,
+        "drumType": 0,
+        "drummerName": "Danny Carey",
+        "plasticType": 0,
+        "targetFreq": 185,
+        "timestamp": "2026-05-05T14:55:36",
+        "wasCorrect": false
+    },
+    {
+        "correction": -315,
+        "detectedFreq": 500,
+        "drumType": 0,
+        "drummerName": "Danny Carey",
+        "plasticType": 0,
+        "targetFreq": 185,
+        "timestamp": "2026-05-05T14:56:11",
+        "wasCorrect": false
+    },
+    {
+        "correction": 154.0743408203125,
+        "detectedFreq": 30.92566680908203,
+        "drumType": 0,
+        "drummerName": "Danny Carey",
+        "plasticType": 0,
+        "targetFreq": 185,
+        "timestamp": "2026-05-05T14:56:19",
+        "wasCorrect": false
+    },
+    {
+        "correction": 136,
+        "detectedFreq": 49,
+        "drumType": 0,
+        "drummerName": "Danny Carey",
+        "plasticType": 0,
+        "targetFreq": 185,
+        "timestamp": "2026-05-05T14:56:24",
+        "wasCorrect": false
+    },
+    {
+        "correction": -215,
+        "detectedFreq": 420,
+        "drumType": 0,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 205,
+        "timestamp": "2026-05-05T14:56:34",
+        "wasCorrect": false
+    },
+    {
+        "correction": -295,
+        "detectedFreq": 500,
+        "drumType": 0,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 205,
+        "timestamp": "2026-05-05T14:56:40",
+        "wasCorrect": false
+    },
+    {
+        "correction": 155.890869140625,
+        "detectedFreq": 49.109130859375,
+        "drumType": 0,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 205,
+        "timestamp": "2026-05-05T14:56:49",
+        "wasCorrect": false
+    },
+    {
+        "correction": -295,
+        "detectedFreq": 500,
+        "drumType": 0,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 205,
+        "timestamp": "2026-05-05T14:56:53",
+        "wasCorrect": false
+    },
+    {
+        "correction": 155.05662536621094,
+        "detectedFreq": 49.94337463378906,
+        "drumType": 0,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 205,
+        "timestamp": "2026-05-05T14:56:58",
+        "wasCorrect": false
+    },
+    {
+        "correction": 50.909088134765625,
+        "detectedFreq": 89.09091186523438,
+        "drumType": 2,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 140,
+        "timestamp": "2026-05-05T15:20:32",
+        "wasCorrect": false
+    },
+    {
+        "correction": -59.08312225341797,
+        "detectedFreq": 111.08312225341797,
+        "drumType": 1,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 52,
+        "timestamp": "2026-05-05T15:20:42",
+        "wasCorrect": false
+    },
+    {
+        "correction": -445,
+        "detectedFreq": 500,
+        "drumType": 1,
+        "drummerName": "Joey Jordison",
+        "plasticType": 1,
+        "targetFreq": 55,
+        "timestamp": "2026-05-05T15:20:51",
+        "wasCorrect": false
+    },
+    {
+        "correction": 118.52941131591797,
+        "detectedFreq": 86.47058868408203,
+        "drumType": 0,
+        "drummerName": "Joey Jordison",
+        "plasticType": 0,
+        "targetFreq": 205,
+        "timestamp": "2026-05-05T15:52:11",
+        "wasCorrect": false
+    }
+]

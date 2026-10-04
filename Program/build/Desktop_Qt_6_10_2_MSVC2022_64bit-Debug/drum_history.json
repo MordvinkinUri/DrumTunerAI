@@ -1,0 +1,32 @@
+[
+    {
+        "correction": 112,
+        "detectedFreq": 98,
+        "drumType": 0,
+        "drummerName": "Dave Lombardo",
+        "plasticType": 0,
+        "targetFreq": 210,
+        "timestamp": "2026-05-05T15:58:05",
+        "wasCorrect": false
+    },
+    {
+        "correction": 122.67326354980469,
+        "detectedFreq": 87.32673645019531,
+        "drumType": 0,
+        "drummerName": "Dave Lombardo",
+        "plasticType": 0,
+        "targetFreq": 210,
+        "timestamp": "2026-05-05T15:58:19",
+        "wasCorrect": false
+    },
+    {
+        "correction": 59.105438232421875,
+        "detectedFreq": 140.89456176757812,
+        "drumType": 0,
+        "drummerName": "Lars Ulrich",
+        "plasticType": 0,
+        "targetFreq": 200,
+        "timestamp": "2026-05-05T16:04:57",
+        "wasCorrect": false
+    }
+]

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1350</width>
+    <height>950</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Drum Tuner AI</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGroupBox" name="controlGroup">
+      <property name="title">
+       <string>⚙️ НАСТРОЙКИ</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="labelDrummer">
+         <property name="text">
+          <string>🥁 Легендарный барабанщик:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="drummerCombo"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelDrum">
+         <property name="text">
+          <string>🎧 Барабан:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="drumCombo"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelPlastic">
+         <property name="text">
+          <string>🎚️ Тип пластика:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="plasticCombo"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelDuration">
+         <property name="text">
+          <string>⏱️ Длительность записи:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="durationCombo"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelSnareWire">
+         <property name="text">
+          <string>🔘 Подструнник:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="snareWireCombo"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="targetLabel">
+         <property name="text">
+          <string>🎯 Цель: ---</string>
+         </property>
+         <property name="styleSheet">
+          <string>font-weight: bold; color: #FFD700;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="infoLabel">
+         <property name="text">
+          <string>Выберите барабанщика</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="recordButton">
+         <property name="text">
+          <string>🎤 ЗАПИСАТЬ</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #4CAF50; color: white; font-weight: bold; padding: 10px; font-size: 14px; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="readyButton">
+         <property name="text">
+          <string>⚠️ НЕ ГОТОВО</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #f44336; color: white; font-weight: bold; padding: 10px; font-size: 14px; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="statusLabel">
+         <property name="text">
+          <string>Готов</string>
+         </property>
+         <property name="styleSheet">
+          <string>color: #888888;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="dimensionsButton">
+         <property name="text">
+          <string>📏 Размеры барабанов</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #2196F3; color: white; font-weight: bold; padding: 8px; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="showBoltsButton">
+         <property name="text">
+          <string>🔧 Схема болтов</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #9C27B0; color: white; font-weight: bold; padding: 8px; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelSeparator1">
+         <property name="text">
+          <string>━━━━━━━━━━━━━━━━━━━━━</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="calibrateButton">
+         <property name="text">
+          <string>🔧 Калибровка микрофона</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #FF9800; color: white; font-weight: bold; padding: 8px; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="statsButton">
+         <property name="text">
+          <string>📊 Показать статистику</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #607D8B; color: white; font-weight: bold; padding: 8px; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelSeparator2">
+         <property name="text">
+          <string>━━━━━━━━━━━━━━━━━━━━━</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="exportButton">
+         <property name="text">
+          <string>💾 Экспорт данных обучения</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #3F51B5; color: white; font-weight: bold; padding: 8px; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="importButton">
+         <property name="text">
+          <string>📂 Импорт данных обучения</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #3F51B5; color: white; font-weight: bold; padding: 8px; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="settingsExportButton">
+         <property name="text">
+          <string>💾 Экспорт настроек</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #009688; color: white; font-weight: bold; padding: 8px; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="settingsImportButton">
+         <property name="text">
+          <string>📂 Импорт настроек</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #009688; color: white; font-weight: bold; padding: 8px; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="resultGroup">
+      <property name="title">
+       <string>🧠 РЕЗУЛЬТАТ АНАЛИЗА</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="detectedLabel">
+         <property name="text">
+          <string>🎵 Обнаружено: ---</string>
+         </property>
+         <property name="styleSheet">
+          <string>font-size: 24px; font-weight: bold; color: #FFD700;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="resultLabel">
+         <property name="text">
+          <string>---</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string>font-size: 12px; color: #CCCCCC;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="spectrumLabel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Спектр</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: black; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="schemeLabel">
+         <property name="minimumSize">
+          <size>
+           <width>550</width>
+           <height>550</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Схема барабана</string>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #2D2D2D; border-radius: 10px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="plasticInfoLabel">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Информация о пластике</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #2D2D2D; border-radius: 8px; padding: 10px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="logTextEdit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string>background-color: #1E1E1E; color: #00FF00; font-family: monospace; border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
